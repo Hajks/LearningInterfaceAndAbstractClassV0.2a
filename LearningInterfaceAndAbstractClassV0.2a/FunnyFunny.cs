@@ -13,7 +13,7 @@ namespace LearningInterfaceAndAbstractClassV0._2a
         {
             this.funnyThingIHave = funnyThingIHave;
         }
-        private string funnyThingIHave;
+        protected string funnyThingIHave; // We used protected access modificator for better encapsulation.
         public string FunnyThingIHave
         {
             get

@@ -25,7 +25,7 @@ namespace LearningInterfaceAndAbstractClassV0._2a
 
         public void ScareLittleChildren()
         {
-            Console.WriteLine("Buuu! Mam cię! " + ScaryThingIHave);
+            Console.WriteLine("Nie możesz mieć mojego " +base.funnyThingIHave);
         } 
     }
 }
